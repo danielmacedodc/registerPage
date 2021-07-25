@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+
+
+.grid{
+    display:grid;
+    padding: 50px;
+    height: 100vh;
+    background: url(/src/assets/deep.jpg) no-repeat center;
+    background-color: black;
+}
+
+.grid h3{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(252, 249, 249);
+    padding-bottom: 10px;
+    padding-top: 30px;
+}
+
+.grid .grid-items{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.grid .grid-items .insideDiv{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+}
+
+img {
+    border-radius: 10px;
+    height: 350px;
+    width: 350px;
+}
+
+.grid .grid-items div h4{
+    text-align: center;
+    padding: 10px 0;
+    font-size: 22px;
+    font-weight:bold;
+}
+
+.grid .grid-items div button{
+    line-height: 1.8;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    text-decoration: solid;
+}
+
+@media (max-width: 1300px)
+{
+    .grid-items {
+        display:flex;
+        flex-direction: column;
+        margin-top: 20px;
+        align-self: center ;
+    }
+}

@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d69bb6f2.chunk.css",
+    "main.js": "/static/js/main.003a9442.chunk.js",
+    "main.js.map": "/static/js/main.003a9442.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.a60fe169.js",
+    "runtime-main.js.map": "/static/js/runtime-main.a60fe169.js.map",
+    "static/js/2.458353f3.chunk.js": "/static/js/2.458353f3.chunk.js",
+    "static/js/2.458353f3.chunk.js.map": "/static/js/2.458353f3.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.d69bb6f2.chunk.css.map": "/static/css/main.d69bb6f2.chunk.css.map",
+    "static/js/2.458353f3.chunk.js.LICENSE.txt": "/static/js/2.458353f3.chunk.js.LICENSE.txt",
+    "static/media/destinations.css": "/static/media/deep.3ab31c23.jpg",
+    "static/media/enceladus.0b9a4a20.jpg": "/static/media/enceladus.0b9a4a20.jpg",
+    "static/media/Register.css": "/static/media/mars-bg1.2694b653.jpeg",
+    "static/media/moon-img.58764732.jpg": "/static/media/moon-img.58764732.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a60fe169.js",
+    "static/js/2.458353f3.chunk.js",
+    "static/css/main.d69bb6f2.chunk.css",
+    "static/js/main.003a9442.chunk.js"
+  ]
+}

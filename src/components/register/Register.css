@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+
+img{
+    max-width: 100%;
+}
+
+ul{
+    list-style-type: none;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+}
+
+.registerUser {
+    background: url(/src/assets/mars-bg1.jpeg) no-repeat center;
+    height: 100vh;
+    background-color: black;
+}
+
+.registerUser h1{
+    text-align: center;
+    color: white;
+    font-size: 36px;
+    padding: 0 0;
+    background-color: rgb(94, 11, 11);
+}
+
+.registerUser .newDiv{
+    display: flex;
+    flex-direction: row;
+    width: 50vw;
+    align-items: center;
+}
+
+.registerUser .overlay3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: white;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.registerUser .overlay3 form{
+    display: grid;
+    margin: 10px;
+}
+
+.registerUser .overlay3 input{
+    padding: 5px;
+    margin: 5px;
+}
